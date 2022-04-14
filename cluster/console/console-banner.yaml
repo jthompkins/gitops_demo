@@ -1,0 +1,13 @@
+apiVersion: console.openshift.io/v1
+kind: ConsoleNotification
+metadata:
+  name: example
+spec:
+  text: This is a test cluster on OPENTLC
+  location: BannerTop
+  link:
+    href: 'https://www.example.com'
+    text: Optional link text
+  color: '#fff'
+  backgroundColor: '#0088ce'
+
